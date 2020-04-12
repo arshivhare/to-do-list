@@ -1,0 +1,127 @@
+header {
+    text-align: center;
+    margin-bottom: 3rem;
+    background-color: #3898DC;
+    color: white;
+    font-size: 45px;
+}
+
+.addItemContainer{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: inherit;
+    margin-bottom: 50px;
+}
+
+input {
+    height: 30px;
+    width: 800px;
+    border-radius: 4px;
+    font-size: 25px;
+}
+
+.addButton {
+    width: 60px;
+    height: 35px;
+    border-radius: 6px;
+    color: white;
+    background-color: #40D2B1;
+    margin-left: 2px;
+    border-color: transparent;
+}
+
+input::placeholder {
+    padding-left: 15px;
+    font-size: 1em;
+   }
+
+
+.itemPanel {
+    border-radius: 6px;
+    font-size: 1rem;
+    display: block;
+    box-sizing: inherit;
+}
+
+.itemPanel .toDoRow {
+    border-bottom: 1px solid transparent;
+    display: flex;
+    padding: 0.5em 0.75em;
+    align-items: center;
+    justify-content: flex-start;
+    border-style: groove;
+    border-radius: 5px;
+
+} 
+
+.toDoText {
+    position: relative;
+    text-align: left;
+    box-sizing: border-box;
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 100%;
+}
+
+.toDoText input {
+    float: left;
+    width: 25px;
+}
+.toDoMessage {
+    margin: 0;
+    float: left;
+    line-height: 35px;
+    width: 750px;
+}
+
+.deleteToDoButton {
+    background-color: #FDECF0;
+    width: 35px;
+    height: 25px;
+    border-radius: 3px;
+    color: #CC1435;
+}
+
+.deleteAllButton {
+    width: 50%;
+    margin-top: 30px;
+    background-color: #FDECF0;
+    color: #CC1435;
+    border-radius: 4px;
+    height: 30px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
